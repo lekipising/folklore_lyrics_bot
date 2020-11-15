@@ -1,3 +1,6 @@
+# Author: Liplan Lekipising
+# Created: 15th November, 2020
+
 from folklore_lyrics import master_list
 
 import datetime

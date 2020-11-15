@@ -1,3 +1,6 @@
+# Author: Liplan Lekipising
+# Created: 15th November, 2020
+
 
 the_1 = ["""I'm doing good, I'm on some new shit
 Been saying "Yes" instead of "No""",
@@ -843,14 +846,4 @@ No, not without you"""]
 
 master_list = {'the lakes': the_1, 'cardigan': cardigan, 'the last great american dynasty': the_last_great_american_dynasty, 'exile': exile, 'my tears ricochet': my_tears_ricochet, 'mirrorball': mirrorball, 'seven': seven, 'august': august, 'this is me trying': this_is_me_trying, 'illicit affairs': illicit_affairs, 'invisible string': invisible_string, 'mad woman': mad_woman,'epiphany': epiphany, 'betty': betty, 'peace': peace, 'hoax': hoax, 'the lakes': the_lakes}
 
-
-if __name__ == '__main__':
-    # for song in master_list:
-    #     print(song)
-    import random
-    songs = []
-    for song in master_list:
-        songs.append(song)
-    
-    print(random.choice(songs))
 
