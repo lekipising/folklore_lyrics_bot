@@ -23,7 +23,7 @@ def lyric():
             print('Lyrics from ' + k)
     
 
-schedule.every(10).seconds.do(lyric)
+schedule.every(60).minutes.do(lyric)
 
 while True:
     schedule.run_pending()
